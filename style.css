@@ -1,10 +1,15 @@
-@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap');
+ @import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap');
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     text-decoration: none;
 
+}
+.max-width{
+    max-width: 1300px;
+    padding: 0 80px;
+    margin: auto;
 }
 /*-- navbar-- inicio*/
 .navbar{
@@ -13,7 +18,7 @@
         background-color:#00804b ;
         font-family: 'ubuntu', sans-serif;
 }
-.navabr .max-width{
+.navbar .max-width{
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -27,6 +32,6 @@
     list-style: none;
     display: inline-block;
 }
-.navbar.menu li a{
+.navbar .menu li a{
     color: #fff;
 }
